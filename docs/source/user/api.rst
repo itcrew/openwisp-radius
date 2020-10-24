@@ -476,7 +476,12 @@ Parameters:
 ===============    ===============================
 Param              Description
 ===============    ===============================
-token              string
+auth_token         string
+radius_user_token  string
+response_code      string to be used for translation
+username           string
+is_active          boolean
+phone_number       string
 ===============    ===============================
 
 User Radius Sessions
